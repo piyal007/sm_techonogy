@@ -23,7 +23,7 @@ export default function ProductsSection() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div className="flex justify-center items-center h-screen"><div className="custom-loader"></div></div>;
   }
 
   return (
