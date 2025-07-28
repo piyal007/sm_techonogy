@@ -5,6 +5,7 @@ import FeaturesSection from "@/components/sections/FeaturesSection";
 import ProductsSection from "@/components/sections/ProductsSection";
 import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import FooterSection from "@/components/sections/FooterSection";
+import CollectionSection from "@/components/sections/CollectionSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       {/* Main Content Sections */}
       <main>
         <HeroSection />
+        <CollectionSection />
         <FeaturesSection />
         <ProductsSection />
         <TestimonialsSection />

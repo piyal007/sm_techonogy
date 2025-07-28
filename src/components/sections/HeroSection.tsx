@@ -3,7 +3,7 @@ import { ArrowUpRight, Minus } from 'lucide-react';
 export default function HeroSection() {
   return (
     <section className="bg-[#FBFBFB]">
-      <div className="w-[90%] mx-auto flex gap-2 *:w-1/2">
+      <div className="w-[90%] mx-auto pt-4 flex gap-2 *:w-1/2">
         {/* hero content */}
         <div className="flex flex-col justify-center py-8">
           {/* Badge */}
@@ -15,12 +15,13 @@ export default function HeroSection() {
 
           {/* Main Heading */}
           <h1 className="font-maven-pro text-7xl font-semibold text-[#1D1818] leading-[1.1] tracking-[-0.04em] mb-6">
-            Fashion That Feels As Good As It{' '}
+            Fashion That<br/>Feels As Good As<br/>It{' '}
+
             <span className="text-[#CE4E61] inline-block transform -skew-y-3">Looks</span>
           </h1>
 
           {/* Description */}
-          <p className="font-montserrat text-[#161616] text-lg leading-relaxed mb-8 max-w-lg">
+          <p className="font-montserrat text-[#161616] text-lg leading-relaxed mb-8">
             Streetwear-inspired and flavor-packed, every drop celebrates individuality, freedom, 
             and effortless style—where comfort meets cultural edge
           </p>
