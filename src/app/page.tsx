@@ -6,6 +6,7 @@ import ProductsSection from "@/components/sections/ProductsSection";
 import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import FooterSection from "@/components/sections/FooterSection";
 import CollectionSection from "@/components/sections/CollectionSection";
+import BlogSection from "@/components/sections/BlogSection";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <FeaturesSection />
         <ProductsSection />
         <TestimonialsSection />
+        <BlogSection />
       </main>
       
       {/* Footer */}
