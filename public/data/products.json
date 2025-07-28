@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Lipstick",
+    "brand": "Better Wood and Home",
+    "price": 120,
+    "image": "/images/product_1.png",
+    "hasDiscount": true
+  },
+  {
+    "id": 2,
+    "name": "Lip Balm",
+    "brand": "Better Wood and Home",
+    "price": 120,
+    "image": "/images/product_2.png",
+    "hasDiscount": false
+  },
+  {
+    "id": 3,
+    "name": "Blush",
+    "brand": "Better Wood and Home",
+    "price": 120,
+    "image": "/images/product_3.png",
+    "hasDiscount": false
+  },
+  {
+    "id": 4,
+    "name": "Eye Shadow",
+    "brand": "Better Wood and Home",
+    "price": 120,
+    "image": "/images/product_4.png",
+    "hasDiscount": true
+  },
+  {
+    "id": 5,
+    "name": "Maskara",
+    "brand": "Better Wood and Home",
+    "price": 120,
+    "image": "/images/product_5.png",
+    "hasDiscount": true
+  },
+  {
+    "id": 6,
+    "name": "Foundation",
+    "brand": "Better Wood and Home",
+    "price": 120,
+    "image": "/images/product_6.png",
+    "hasDiscount": false
+  },
+  {
+    "id": 7,
+    "name": "Jel",
+    "brand": "Better Wood and Home",
+    "price": 120,
+    "image": "/images/product_7.png",
+    "hasDiscount": false
+  },
+  {
+    "id": 8,
+    "name": "Cream",
+    "brand": "Better Wood and Home",
+    "price": 120,
+    "image": "/images/product_8.png",
+    "hasDiscount": false
+  }
+]
