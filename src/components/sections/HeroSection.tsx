@@ -1,5 +1,6 @@
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { ArrowUpRight, Minus } from 'lucide-react';
+import Image from "next/image";
 export default function HeroSection() {
   return (
     <section className="bg-[#FBFBFB]">
@@ -37,12 +38,12 @@ export default function HeroSection() {
             background: 'radial-gradient(50% 50% at 50% 50%, #FFC7CF 34.62%, rgba(255, 255, 255, 0) 100%'
 
           }}>
-          <img className="w-full h-auto object-cover" src="/images/hero.png" alt="Fashion model wearing pink outfit" />
+          <Image className="w-full h-auto object-cover" src="/images/hero.png" alt="Fashion model wearing pink outfit" />
           {/* Floating testimonial quote */}
           <div className="absolute top-10 right-0 rounded-lg pl-4">
             <div className="text-[#CE4E61] text-3xl font-semibold mb-2"><RiDoubleQuotesL /></div>
             <p className="font-roboto text-[#535151] text-[10px] mb-3">
-              I love that it's made with gentle ingredients — no<br/>irritation at all, even on my sensitive skin.
+              I love that it&apos;s made with gentle ingredients — no<br/>irritation at all, even on my sensitive skin.
             </p>
             <div className="flex gap-4 items-center">
               <span>

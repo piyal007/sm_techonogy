@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function CollectionSection() {
   return (
@@ -9,7 +10,7 @@ export default function CollectionSection() {
                   
                   <div className="cursor-pointer">
                       <div className='w-48 h-64 mb-4 rounded-full overflow-hidden bg-gradient-to-b from-[#C8D5A0] to-[#A8C470]'>
-                          <img
+                          <Image
                               src="/images/collection_1.png"
                               alt="Oil Cleansers"
                               className="w-full h-full object-cover object-center"
@@ -22,7 +23,7 @@ export default function CollectionSection() {
                   </div>
                   <div className="cursor-pointer">
                       <div className='w-48 h-64 mb-4 rounded-full overflow-hidden bg-gradient-to-b from-[#C8D5A0] to-[#A8C470]'>
-                          <img
+                          <Image
                               src="/images/collection_2.png"
                               alt="Hand Cream"
                               className="w-full h-full object-cover object-center"
@@ -35,7 +36,7 @@ export default function CollectionSection() {
                   </div>
                   <div className="cursor-pointer">
                       <div className='w-48 h-64 mb-4 rounded-full overflow-hidden bg-gradient-to-b from-[#C8D5A0] to-[#A8C470]'>
-                          <img
+                          <Image
                               src="/images/collection_3.png"
                               alt="Toners Skin"
                               className="w-full h-full object-cover object-center"
@@ -48,7 +49,7 @@ export default function CollectionSection() {
                   </div>
                   <div className="cursor-pointer">
                       <div className='w-48 h-64 mb-4 rounded-full overflow-hidden bg-gradient-to-b from-[#C8D5A0] to-[#A8C470]'>
-                          <img
+                          <Image
                               src="/images/collection_4.png"
                               alt="Fask Mask"
                               className="w-full h-full object-cover object-center"

@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import { Product } from '@/lib/types';
+import Image from 'next/image';
 
 export default function ProductsSection() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -44,7 +45,7 @@ export default function ProductsSection() {
               
               {/* Product image container */}
               <div className="bg-[#F2F2F2] px-6 py-12 flex items-center justify-center">
-                <img 
+                <Image 
                   className="w-[3000px] h-[300px] object-cover object-center"
                   src={product.image} 
                   alt={product.name} 

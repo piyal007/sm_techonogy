@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import { Button } from '../ui/button'
 
 export default function BlogSection() {
@@ -26,7 +27,7 @@ export default function BlogSection() {
                       </div>
                       {/* card 1 image */}
                       <div className='w-[400px] h-[400px]'>
-                          <img className='w-full h-full object-cover ' src="/images/blog_1.png" alt="" />
+                          <Image className='w-full h-full object-cover ' src="/images/blog_1.png" alt="" />
                       </div>
                   </div>
                   {/* Card 2 */}
@@ -45,7 +46,7 @@ export default function BlogSection() {
                       </div>
                       {/* card 2 image */}
                       <div className='w-[400px] h-[400px]'>
-                          <img className='w-full h-full object-cover ' src="/images/blog_2.jpg" alt="" />
+                          <Image className='w-full h-full object-cover ' src="/images/blog_2.jpg" alt="" />
                       </div>
                   </div>
                   {/* Card 3 */}
@@ -64,7 +65,7 @@ export default function BlogSection() {
                       </div>
                       {/* card 3 image */}
                       <div className='w-[400px] h-[400px]'>
-                          <img className='w-full h-full object-cover ' src="/images/blog_3.jpg" alt="" />
+                          <Image className='w-full h-full object-cover ' src="/images/blog_3.jpg" alt="" />
                       </div>
                   </div>
               </div>

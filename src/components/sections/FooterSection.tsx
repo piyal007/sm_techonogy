@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaLinkedinIn } from "react-icons/fa";
 
 export default function FooterSection() {
@@ -10,7 +11,7 @@ export default function FooterSection() {
           {/* Left Column - Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <img 
+              <Image 
                 src="/images/footer_logo.png" 
                 alt="Velvet Glow Logo" 
                 className="w-8 h-8"

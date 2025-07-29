@@ -1,5 +1,6 @@
 'use client';
 import Link from "next/link";
+import Image from 'next/image'
 import { Search, ShoppingBag, User } from 'lucide-react';
 
 export default function Navbar() {
@@ -24,7 +25,7 @@ export default function Navbar() {
         {/* Left section - Logo */}
         <div className="flex items-center gap-2">
           <div>
-            <img
+            <Image
               src="/images/logo.png"
               alt="Velvet Glow Logo"
               className="w-10 h-10 rotate-0 opacity-100"
@@ -37,41 +38,41 @@ export default function Navbar() {
         
         {/* Center section - Navigation Menu */}
         <div className="flex items-center gap-8">
-          <a 
+          <Link 
             href="#home" 
             onClick={(e) => handleNavClick(e, 'home')}
             className="font-roboto font-medium text-base leading-6 tracking-normal text-[#1C1C1C] hover:text-[#CE4E61] transition-colors cursor-pointer"
           >
             Home
-          </a>
-          <a 
+          </Link>
+          <Link 
             href="#shop" 
             onClick={(e) => handleNavClick(e, 'shop')}
             className="font-roboto font-medium text-base leading-6 tracking-normal text-[#1C1C1C] hover:text-[#CE4E61] transition-colors cursor-pointer"
           >
             Shop
-          </a>
-          <a 
+          </Link>
+          <Link 
             href="#product" 
             onClick={(e) => handleNavClick(e, 'product')}
             className="font-roboto font-medium text-base leading-6 tracking-normal text-[#1C1C1C] hover:text-[#CE4E61] transition-colors cursor-pointer"
           >
             Product
-          </a>
-          <a 
+          </Link>
+          <Link 
             href="#blog" 
             onClick={(e) => handleNavClick(e, 'blog')}
             className="font-roboto font-medium text-base leading-6 tracking-normal text-[#1C1C1C] hover:text-[#CE4E61] transition-colors cursor-pointer"
           >
             Blog
-          </a>
-          <a 
+          </Link>
+          <Link 
             href="#testimonials" 
             onClick={(e) => handleNavClick(e, 'testimonials')}
             className="font-roboto font-medium text-base leading-6 tracking-normal text-[#1C1C1C] hover:text-[#CE4E61] transition-colors cursor-pointer"
           >
             Testimonials
-          </a>
+          </Link>
         </div>
         
         {/* Right section - Icons */}

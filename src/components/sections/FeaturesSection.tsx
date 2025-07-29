@@ -7,6 +7,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import Image from 'next/image'
 
 export default function FeaturesSection() {
   const carouselItems = [
@@ -52,10 +53,10 @@ export default function FeaturesSection() {
               className="w-full"
             >
               <CarouselContent className="-ml-2 md:-ml-4">
-                {carouselItems.map((item, index) => (
+                {carouselItems.map((item) => (
                   <CarouselItem key={item.id} className="pl-2 md:pl-4 md:basis-1/2">
                     <div className="relative h-80 bg-gradient-to-br from-purple-900 via-purple-800 to-purple-600 rounded-lg overflow-hidden">
-                      <img
+                      <Image
                         src={item.image}
                         alt={item.title}
                         className="w-full h-full object-cover"

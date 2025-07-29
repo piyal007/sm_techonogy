@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function TestimonialsSection() {
   return (
     <section className="bg-[#FBFBFB]">
@@ -13,7 +15,7 @@ export default function TestimonialsSection() {
                 <div className="flex items-start gap-4 mb-4">
                   <div className="relative">
                     <div className="w-16 h-16 rounded-full border-2 border-blue-400 p-1">
-                      <img
+                      <Image
                         className="w-full h-full rounded-full object-cover"
                         src="/images/testimonial_1.jpg"
                         alt="Afiya Jaman Sinigdha"
@@ -37,7 +39,7 @@ export default function TestimonialsSection() {
                 <div className="flex items-start gap-4 mb-4">
                   <div className="relative">
                     <div className="w-16 h-16 rounded-full border-2 border-blue-400 p-1">
-                      <img
+                      <Image
                         className="w-full h-full rounded-full object-cover"
                         src="/images/testimonial_2.jpg"
                         alt="Afiya Jaman Sinigdha"
@@ -59,7 +61,7 @@ export default function TestimonialsSection() {
           
           {/* Testimonial card 3 */}
           <div className="w-[600px] h-[400px] absolute right-0">
-                <img className="w-full h-full object-cover object-center" src="/images/testimonial_3.png" alt="" />
+                <Image className="w-full h-full object-cover object-center" src="/images/testimonial_3.png" alt="" />
           </div>
 
         </div>
