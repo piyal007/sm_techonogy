@@ -43,6 +43,7 @@ export default function Navbar() {
             onClick={(e) => handleNavClick(e, 'home')}
             className="font-roboto font-medium text-base leading-6 tracking-normal text-[#1C1C1C] hover:text-[#CE4E61] transition-colors cursor-pointer"
           >
+            
             Home
           </Link>
           <Link 
